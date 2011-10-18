@@ -1,0 +1,118 @@
+
+
+/* Reset styles - Adapted from HTML5 Doctor 
+------------------------------------------------------------------------------*/
+
+
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small,
+strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label,
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+details, figcaption, figure, footer, header, hgroup, menu, nav, section,
+summary, time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
+section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content:'';
+    content:none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* Default screen styles
+------------------------------------------------------------------------------*/
+
+body {}
+
+h1 {}
+
+a:link {}
+a:visited {}
+a:focus {}
+a:hover {}
+a:active {}
+
+p, ul, ol, dl, table, form {}
+
+} /* Ends @media screen */
+
+
+
+
+@media print {
+
+@page { 
+	margin: 0.5cm; 
+}
+
+body {
+	background: white;
+	color:black;
+	font: 12pt/1.4 Garamond, "Times New Roman", Times, serif;
+}
+
+a:link, a:visited {
+	color: #777;
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a:link:after, a:visited:after {
+	content: " <" attr(href) "> ";
+	font-size: 90%;
+}
+
+thead { 
+	display: table-header-group; 
+} /* css-discuss.incutio.com/wiki/Printing_Tables */ 
+
+tr, img { 
+	page-break-inside: avoid; 
+}
+
+p, h2, h3 { 
+	orphans: 3; 
+	widows: 3; 
+}
+
+h1, h2, h3{ 
+	page-break-after: avoid; 
+}
+
