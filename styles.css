@@ -74,7 +74,6 @@ table {
 #pic1 { 
 float:left; 
 width: 150px; 
-border: 6px solid black;
 
 }
 
@@ -98,7 +97,7 @@ position: relative;
 z-index: 5;
 height: 200px;
 background-color: orange;
-border:10px solid-black;
+border:10px solid black;
 
 }
 
