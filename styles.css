@@ -37,6 +37,7 @@ font-family: 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Arial, sans-serif;
 border-bottom: 0 solid #111111;
 text-align: left;
 font-size: 200%;
+border: 3px solid red;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
