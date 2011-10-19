@@ -31,6 +31,13 @@ color: #333333;
 font-size: 80%;
 }
 
+h1 {
+margin-top: 5px;
+font-family: 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Arial, sans-serif;
+border-bottom: 0 solid #111111;
+text-align: left;
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
 section { 
     display:block;
