@@ -71,7 +71,12 @@ table {
     border-spacing:0;
 }
 
-#pic1 { float:left; width: 300px; }
+#pic1 { 
+float:left; 
+width: 150px; 
+
+
+}
 
 /* Default screen styles
 ------------------------------------------------------------------------------*/
