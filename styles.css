@@ -74,7 +74,7 @@ table {
 #pic1 { 
 float:left; 
 width: 150px; 
-border: 6px;
+border: 6px solid black;
 
 }
 
