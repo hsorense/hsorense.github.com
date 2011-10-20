@@ -77,7 +77,7 @@ table {
 #pic1 { 
 float:left; 
 width: 150px; 
-border = 10px;
+border : 10px solid black;
 }
 
 /* ------ Section 2 - Global Page Structure ------- */
